@@ -11,17 +11,33 @@ providing insights into how your organization is using data it ingests.
 Installing the Content!
 =======================
 
-As mentioned, you need to turn on specific policies:
+    1. You will need to turn on specific policies.
 
-    1. Administration -> Account -> Data Management
-       Enable the data volume to turn on accounting information on the data being ingested.
+Administration -> Account -> Data Management
+*   Enable the data volume to turn on accounting information on the data being ingested.
 
-    2. Administration -> Security -> Policies
-       Enable both the policies in "Sumo Logic Auditing" section
-    
+Administration -> Security -> Policies
+*   Enable both the policies in "Sumo Logic Auditing" section
+
 *   Enable Audit Records
-
 *   Enable Search Audit Records
+
+    2. Once this is done, then navigate to your library
+
+    3. View the raw contents of the JSON file. Copy the complete contents of the JSON file.
+
+    4. Navigate to the library and locate a folder you want to install this in.
+
+    5. Choose "Import" from the right option list from the folder you chose.
+
+    6. This will bring up an input panel with two inputs, a name and JSON content.
+
+    7. Type in the name "Sumo-Logic-Librarian" into the name of the content
+
+    8. Then paste the JSON file contents into the payload section
+ 
+    9. Click on save, and then refresh the page. You should be ready to use the Librarian!
+
 
 License
 =======
