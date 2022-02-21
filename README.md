@@ -13,14 +13,17 @@ Installing the Content!
 
     1. You will need to turn on specific policies.
 
-Administration -> Account -> Data Management
-*   Enable the data volume to turn on accounting information on the data being ingested.
+       *   Administration -> Account -> Data Management
 
-Administration -> Security -> Policies
-*   Enable both the policies in "Sumo Logic Auditing" section
+           *   Enable the data volume to turn on accounting information on the data being ingested.
 
-*   Enable Audit Records
-*   Enable Search Audit Records
+       *  Administration -> Security -> Policies
+
+           *   Enable both the policies in "Sumo Logic Auditing" section
+
+               *   Enable Audit Records
+
+               *   Enable Search Audit Records
 
     2. Once this is done, then navigate to your library
 
